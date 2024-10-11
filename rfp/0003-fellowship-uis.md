@@ -24,7 +24,7 @@ This allocation is based on the following costs comparison for Fellowship UIs:
 |Milestones |Polkassembly |Subsquare |RFP implementer 1 (example)|
 |-----------|-------------|----------|-------------------------|
 |1          |$162,000 ([Finalised](https://docs.google.com/document/d/1lZGlBugwFcP_P5rfLpMyCFW49C_xqEkiFDA0zZETK3Y/edit#heading=h.dbbxpr5zj24u)) |$154,080 ([Finalised](https://polkadot.subsquare.io/referenda/631)) |$160,000 (Quantitative requirements 1-5) |
-|2          |$140,400 ([Ongoing](https://docs.google.com/document/d/1cClkj64t-BC92MIV3-Fq696Ac5yUJHBnnJkBZR4tz70/edit#heading=h.bxakey85xitb)) |$144,000 ([Ongoing](https://polkadot.subsquare.io/referenda/1001)) |$35,000 (Qualitative requirements 1-4) |
+|2          |$140,400 ([Ongoing](https://docs.google.com/document/d/1cClkj64t-BC92MIV3-Fq696Ac5yUJHBnnJkBZR4tz70/edit#heading=h.bxakey85xitb)) |$144,000 ([Ongoing](https://polkadot.subsquare.io/referenda/1001)) |$35,000 (Qualitative requirements 1-5) |
 |**Total**      |**$302,400** |**$298,080** |**$195,000** |
 
 ### Quantitative requirements:
@@ -44,9 +44,10 @@ The design and implementation of the UI should ensure the following:
 2. A system which enables a fluid and barrierless review-and-report cycle.
 3. A UX that is sufficiently painless.
 
-An additional but critical feature is:
+Additional but critical features are:
 
 4. A UI that displays stats for [specific voting activity](https://github.com/polkadot-fellows/Evidences/pull/40#discussion_r1668419965) so that the numbers are clear and voters can make a decision in line with the Manifesto.
+5. A UI that is built on top of [PAPI](https://www.npmjs.com/package/@polkadot-api/substrate-client).
 
 
 ## Useful resources
